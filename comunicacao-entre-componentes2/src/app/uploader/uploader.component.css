@@ -1,0 +1,9 @@
+.btnUpload {
+  display: flex;
+  margin-left: 48.2%;
+  color: white;
+  background-color: rgb(124, 121, 120);
+  height: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}

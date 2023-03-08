@@ -1,0 +1,58 @@
+/*div {
+  width: 300px;
+  height: 500px;
+  background-color: rgb(219, 56, 27);
+  color: white;
+}*/
+
+section {
+  width: 250px;
+  padding-bottom: 0;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container {
+  width: 250px;
+  background: #ffeded;
+  display: flex;
+  justify-content: center;
+}
+
+.img-container img {
+  height: 150px;
+}
+
+.product-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+strong {
+  color: rgb(131, 16, 238);
+}
+
+button {
+  border: none;
+  height: 40px;
+  background-color: rgb(109, 22, 190);
+  color: rgb(240, 240, 240);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}

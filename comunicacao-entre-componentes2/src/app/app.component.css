@@ -1,0 +1,17 @@
+#btn {
+  display: flex;
+  margin-left: 48%;
+  margin-top: 1%;
+  width: 100px;
+  height: 35px;
+  border-color: black;
+  background-color: rgb(124, 121, 120);
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+input[type="file"] {
+  display: none;
+}

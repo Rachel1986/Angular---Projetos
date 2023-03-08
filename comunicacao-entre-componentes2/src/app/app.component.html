@@ -1,0 +1,16 @@
+<app-card 
+titulo="Tô morrendo de sono, tira logo essa foto!" 
+banner="./assets/Meg.jpg" 
+userFoto="./assets/Meg.jpg" 
+userName="Meg"
+corBtn="orange">
+</app-card>
+
+<app-card 
+titulo="Mais charme que isso, impossível!"
+corBtn="violet">
+</app-card>
+
+<app-uploader (uploadCompleto)="mostrarMsg()"></app-uploader>
+<input type="file" #inputFile>
+<button id="btn" (click)="inputFile.click()">Selecione um arquivo</button>
